@@ -1,3 +1,100 @@
 body{
     background-color:rgb(17, 22, 64);
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+p{
+    color: white;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+.profile{
+    background-color: aliceblue;
+    width: 15em;
+    height: 15em;
+}
+.quickBio{
+    font-size: 1.5em;
+}
+
+.samples{
+    margin-top: 5em;
+    color: white;
+}
+
+.projectHeader{
+    margin: 0 auto;
+    color: white;
+    font-size: 2.5em;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5em;
+}
+.project{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.project h1{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.projectTitle{
+    font-size: 2em;
+}
+.samplePic{
+    width: 15em;
+    height: 10em;
+    background-color: white;
+    margin-top: 2em;
+}
+.sampleInfo{
+    font-size: 1em;
+    padding: 2em;
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+}
+.article{
+    display: flex;
+    width: 20em;
+    height: 10em;
+    background-color: aliceblue;
+    position: relative;
+    z-index: 0;
+    color: black;
+    margin: 0 auto;
+}
+.articleHeader{
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 2em;
+    font-size: 2.5em;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5em;
+}
+.articlePic{
+    width: 15em;
+    background-color: black;
+}
+.articleInfo{
+    color: black;
 }
